@@ -7,10 +7,10 @@ const clientId = '58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleuserco
 const clientSecret = 'ZNPZ-vS6N9Zjsyb_sNMZmXHL';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Drive-Index/master/worker/worker-beta.js';
+const jsURL = 'https://raw.githubusercontent.com/HeimanPictures/Google-Drive-Index/master/worker/worker-beta.js';
 
 async function handleRequest(request) {
-    let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
+    let title = getParameterByName(request.url, 'site_name') || 'Heiman Drive Index';
     let auth_code = getParameterByName(request.url, 'auth_code');
     let root = getParameterByName(request.url, 'root') || 'root';
     let user = getParameterByName(request.url, 'user') || '';
@@ -45,7 +45,7 @@ async function handleRequest(request) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-    <title>Bhadoo Drive Index - Beta</title>
+    <title>Heiman Drive Index - Beta</title>
     <link rel="icon" type="image/x-icon" href="https://www.cloudflare.com/favicon.ico"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/css/mdui.min.css">
     <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/js/mdui.min.js"></script>
@@ -285,7 +285,7 @@ async function handleRequest(request) {
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 <div class="mdui-container">
     <br><br>
-    <a href="https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index"><img border="0" alt="Bhadoo Cloud" src="https://cdn.jsdelivr.net/gh/jscdn/svg@1.0.1/bhadoo-cloud-logo.svg" height="30px"></a><h3>Drive Index Generator - Beta</h3>
+    <a href="https://github.com/HeimanPictures/Google-Drive-Index"><img border="0" alt="Heiman Cloud" src="https://telegra.ph/file/c5271e92cacbef576e63d.png" height="30px"></a><h3>Drive Index Generator - Beta</h3>
     <br>
     <div class="mdui-row">
         <div class="mdui-col-sm-2">
@@ -335,7 +335,7 @@ async function handleRequest(request) {
     <div class="mdui-typo">
         <pre class="snippet"><code class="html js">${codeJS}</code></pre>
     </div>
-    <center><h5>© <span id="year"></span> - Bhadoo Cloud Cyber Systems</h5></center>
+    <center><h5>© <span id="year"></span> - Heiman Cloud Cyber Systems</h5></center>
 </div>
 
 <script>
